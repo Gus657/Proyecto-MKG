@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/codigos.css">
+  <link rel="stylesheet" href="css/galeria.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <title>Codigos - Cinta Blanca</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg barra">
+    <div class="navbar-brand nombre" href="#">Cinta blanca GT</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Temas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conocenos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <!--CONTENIDO-->
+  <div class="row primer-fila">
+    <div class="col-6 contenedor-img">
+    </div>
+    <div class="card text-center col-6 color-card">
+      <div class="card-body texto-primera-fila">
+        <div>
+          <h5 class="card-title titulo-card">Qué programamos?</h5>
+          <h6 class="card-subtitle subtitulo-card">Quiéres saber?</h6>
+          <br>
+          <p class="card-text texto-card">Aquí podrás encontrar algunos ejemplos de programas que
+            realizamos a lo largo del curso de Cinta Blanca. Esperamos que te sean utiles y puedas
+            aprender sobre ellos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--CARDS INTERACTIVAS-->
+  <div class="row fondo-cards">
+    <div class="container">
+      <div class="box">
+        <div class="imgBx">
+          <img src="img/js.png" alt="">
+        </div>
+        <div class="contentBx">
+          <h2>Scripts</h2>
+          <p>
+            Utilizamos archivos de tipo "Script" para construir la logica de nuestra pagina web.
+             Estos archivos nos permiten agrupar funciones (En este caso de JavaScript) para poder
+              realizar llamadas a las funciones que se utilizaran más adelante.
+          </p>
+        </div>
+      </div>
+      <!--IMAGEN 2-->
+      <div class="box">
+        <div class="imgBx">
+          <img src="img/function.png" alt="">
+        </div>
+        <div class="contentBx">
+          <h2>Funciones</h2>
+          <p>
+            Utilizamos funciones para crear porciones de código las cuales realizan
+             funciones especificas, al ser estas funciones tener un nombre nos permitirá
+              llamarlas desde distintas partes de la página.
+          </p>
+        </div>
+      </div>
+      <!--IMAGEN 3 -->
+      <div class="box">
+        <div class="imgBx">
+          <img src="img/abc.png" alt="">
+        </div>
+        <div class="contentBx">
+          <h2>Variables</h2>
+          <p>
+            Las variables no permitirán almacenar valores que utilizaremos a lo largo de los programas que hemos desarrollado,
+             dandoles una nueva posibilidad de funcionamiento, evitando que estos valores sea estaticos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!--CODIGOS-->
+  </div>
+  <!--TABLA DE UN NUMERO-->
+  <div class="accordion text-center" id="accordionExample">
+    <div class="card">
+      <div class="card-header color-colapse " id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link color-colapse-btn" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="false" aria-controls="collapseOne">
+            Tabla de un Numero
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body fondo-card-body">
+          <img src="img/tabla.png" alt="">
+        </div>
+        <input type="button" value="Pruebame!" class="btn btn-success" onclick="tabla()">
+      </div>
+    </div>
+
+    <!--CELCIUS-->
+    <div class="card">
+      <div class="card-header color-colapse" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed color-colapse-btn" type="button" data-toggle="collapse"
+            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Conversión de C° a F°
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse bg-card" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body bg-card">
+          <img src="img/grados.png" alt="">
+        </div>
+        <input type="button" value="Pruebame!" class="btn btn-success" onclick="grados()">
+      </div>
+    </div>
+
+    <!--PIRAMIDE-->
+    <div class="card">
+      <div class="card-header color-colapse" id="headingFour">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed  color-colapse-btn" type="button" data-toggle="collapse"
+            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Piramide de Asteriscos
+          </button>
+        </h2>
+      </div>
+      <div id="collapseFour" class="collapse " aria-labelledby="headingFour" data-parent="#accordionExample">
+        <div class="card-body">
+          <img src="img/PIRAMIDE.png" alt="">
+        </div>
+        <input type="button" value="Pruebame!" class="btn btn-success" onclick="piramide()">
+      </div>
+    </div>
+
+    <!--PPT-->
+    <div class="card">
+      <div class="card-header color-colapse " id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed color-colapse-btn" type="button" data-toggle="collapse"
+            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Juego piedra papel tijeras
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse " aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <img src="img/ppt.png" alt="">
+        </div>
+        <input type="button" value="Pruebame!" class="btn btn-success" onclick="PPT()">
+      </div>
+
+      <!--PALIDROMOS-->
+      <div class="card">
+        <div class="card-header color-colapse" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed  color-colapse-btn" type="button" data-toggle="collapse"
+              data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Palindromos
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse " aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div class="card-body">
+            <img src="img/palindromo.png" alt="">
+          </div>
+          <input type="button" value="Pruebame!" class="btn btn-success" onclick="palindromo()">
+        </div>
+      </div>
+    </div>
+
+
+    <!--FOOTER-->
+    <footer class="color-footer">
+
+      <div class="container-fluid text-center ">
+        <div class="footer-copyright text-center">
+          Cinta Blanca - Batch 37 - Guatemala
+        </div>
+        <div class="footer-copyright text-center">
+          © 2020 Copyright
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <script src="js/codigos.js"></script>
+</body>
+
+</html>
