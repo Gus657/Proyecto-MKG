@@ -23,12 +23,16 @@ transform: rotateZ(20deg);
     width: auto;
     
 }
+br
+{
+    background-color: #578c90;
+}
 .img-cardd2:hover
 {
     transform: rotateZ(-20deg);
 }
 .img-cardd2
 {
-width:100% ;
-height: 100%;
+width: auto ;
+height: 300px;
 }
